@@ -1,0 +1,3 @@
+[submodule "@awesome-cordova-library"]
+	path = @awesome-cordova-library
+	url = https://github.com/joazco/awesome-cordova-library.git
