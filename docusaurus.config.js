@@ -95,6 +95,10 @@ const config = {
             title: 'Community',
             items: [
               {
+                label: 'Linkedin',
+                href: 'https://www.linkedin.com/in/jordan-azoulay/',
+              },
+              {
                 label: 'X',
                 href: 'https://twitter.com/DarkblueDungeon',
               },
