@@ -1,5 +1,7 @@
 ln @awesome-cordova-library/README.md docs/plugins/
 
+mkdir docs/plugins/appversion && ln @awesome-cordova-library/appversion/README.md docs/plugins/appversion
+
 mkdir docs/plugins/batterystatus && ln @awesome-cordova-library/batterystatus/README.md docs/plugins/batterystatus
 
 mkdir docs/plugins/camera && ln @awesome-cordova-library/camera/README.md docs/plugins/camera
