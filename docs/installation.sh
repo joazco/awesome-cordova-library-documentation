@@ -42,5 +42,5 @@ mkdir docs/plugins/taptic-engine && ln @awesome-cordova-library/taptic-engine/RE
 
 mkdir docs/plugins/vibration && ln @awesome-cordova-library/vibration/README.md docs/plugins/vibration
 
-
+mkdir docs/plugins/example && ln @awesome-cordova-library/example/README.md docs/plugins/example
 
