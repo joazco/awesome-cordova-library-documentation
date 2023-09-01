@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Awesome Cordova Library by Joazco',
-  tagline: 'Dinosaurs are cool',
+  tagline: 'Cordova with Typescript',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -88,6 +88,10 @@ const config = {
               {
                 label: 'Intro',
                 to: '/docs/',
+              },
+              {
+                label: 'Plugins',
+                to: '/docs/plugins',
               },
             ],
           },
