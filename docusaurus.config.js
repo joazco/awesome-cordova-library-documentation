@@ -31,6 +31,7 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
+  plugins: ['docusaurus-plugin-sass'],
 
   presets: [
     [
@@ -48,7 +49,7 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve('./src/css/custom.scss'),
         },
       }),
     ],
@@ -71,6 +72,11 @@ const config = {
             sidebarId: 'apiSidebar',
             position: 'left',
             label: 'Docs',
+          },
+          {
+            to: '/compressor-image',
+            position: 'left',
+            label: 'Compressor Image',
           },
           {
             href: 'https://github.com/joazco/awesome-cordova-library',

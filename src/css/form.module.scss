@@ -1,0 +1,54 @@
+.awesome_cordova_library__form {
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+    .form_row {
+        display: flex;
+    }
+
+    .form_field {
+        display: flex;
+        flex-direction: column;
+        flex: 1;
+        justify-content: center;
+
+        label {
+            font-size: 1.2em;
+            font-weight: bold;
+        }
+
+        margin: 10px;
+    }
+
+    .form_input {
+        height: 4vh;
+        border: 1px solid var(--ifm-color-primary-lightest);
+        border-radius: 3px;
+
+        &[type="text"],
+        &[type="number"] {
+            text-align: center;
+            font-size: 1.3em;
+            color: var(--ifm-color-primary)
+        }
+
+        &[type="file"] {
+            display: none;
+        }
+    }
+
+    .label_file,
+        {
+        text-align: center;
+        text-transform: uppercase;
+        padding: 20px;
+        border: 1px dashed var(--ifm-color-primary);
+        cursor: pointer;
+
+    }
+
+    .label_file_drag_over {
+        border: 2px double var(--ifm-color-primary);
+    }
+}
