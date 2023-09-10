@@ -6,8 +6,7 @@ import React, {
   useState,
 } from "react";
 import { CompressorImageReturn } from "@awesome-cordova-library/compressor-image";
-import { CompressorRucerFormState } from "./compressorRucerForm";
-import style from "./index.module.scss";
+import style from "../../pages/Compressor-Image/index.module.scss";
 import Link from "@docusaurus/Link";
 
 type CompressorImageComparativeComponentProps = {

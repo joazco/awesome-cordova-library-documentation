@@ -6,7 +6,7 @@ import {
 import formStyle from "../../css/form.module.scss";
 
 type CompressorImageFormComponentProps = {
-  state: CompressorRucerFormState;
+  readonly state: CompressorRucerFormState;
   dispatch: React.Dispatch<CompressorRucerFormAction>;
   onBlur: () => void;
 };

@@ -8,9 +8,9 @@ import Layout from "@theme/Layout";
 import styles from "./index.module.scss";
 import compressorRucerForm, {
   defaultStateCompressorRucerForm,
-} from "./compressorRucerForm";
-import CompressorImageFormComponent from "./CompressorImageFormComponent";
-import CompressorImageComparativeComponent from "./CompressorImageComparativeComponent";
+} from "../../components/CompressorComponents/compressorRucerForm";
+import CompressorImageFormComponent from "../../components/CompressorComponents/CompressorImageFormComponent";
+import CompressorImageComparativeComponent from "../../components/CompressorComponents/CompressorImageComparativeComponent";
 
 function CrompressorImageHeader() {
   return (
@@ -49,8 +49,6 @@ export default function CrompressorImage(): JSX.Element {
     compressorRucerForm,
     defaultStateCompressorRucerForm
   );
-  const { siteConfig } = useDocusaurusContext();
-
   const { quality, maxWidth, maxHeight, imagesSrc, imagesTarget } = state;
 
   const { compress } = useCompressorImage();
@@ -98,7 +96,7 @@ export default function CrompressorImage(): JSX.Element {
 
   return (
     <Layout
-      title={siteConfig.title}
+      title={"Compressor Image"}
       description="Description will go into a meta tag in <head />"
     >
       <CrompressorImageHeader />
