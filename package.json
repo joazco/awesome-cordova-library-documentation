@@ -16,7 +16,7 @@
     "install:doc": "node install_docs.js"
   },
   "dependencies": {
-    "@awesome-cordova-library/compressor-image": "^1.0.1",
+    "@awesome-cordova-library/compressor-image": "^1.0.4",
     "@docusaurus/core": "2.4.1",
     "@docusaurus/preset-classic": "2.4.1",
     "@mdx-js/react": "^1.6.22",

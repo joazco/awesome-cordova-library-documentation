@@ -91,7 +91,9 @@ const CompressorImageComparativeComponent: React.FC<
               </div>
               <div>Quality: {imageTarget.quality}</div>
             </div>
-            <div>{imageTarget.base64 && <img src={imageTarget.base64} />}</div>
+            <div>
+              {imageTarget.base64 && <img src={imageTarget.base64Formatted} />}
+            </div>
           </div>
         </div>
       </div>
