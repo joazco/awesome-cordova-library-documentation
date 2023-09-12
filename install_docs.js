@@ -23,7 +23,7 @@ class InstallDocs {
                 files.forEach((file) => {
                     const fullPath = path.join(this.libraryPath, file);
                     const stats = fs.statSync(fullPath);
-                    if (stats.isDirectory() && !file.startsWith(".") && file !== "example"
+                    if (stats.isDirectory() && !file.startsWith(".")
                         && file !== "pattern plugin") {
                         const readMeFile = path.join(fullPath, "README.md");
                         fs.accessSync(readMeFile, fs.constants.R_OK | fs.constants.W_OK);
