@@ -5,8 +5,8 @@ import React, {
   useRef,
   useState,
 } from "react";
-import { CompressorImageReturn } from "@awesome-cordova-library/compressor-image";
-import style from "../../pages/Compressor-Image/index.module.scss";
+import { CompressorImageReturn } from "canvas-compressor-image";
+import style from "../../pages/Canvas-Compressor-Image/index.module.scss";
 import Link from "@docusaurus/Link";
 
 type CompressorImageComparativeComponentProps = {
@@ -52,7 +52,7 @@ const CompressorImageComparativeComponent: React.FC<
             <Link
               onClick={handleDownload}
               className="button button--primary"
-              to={imageTarget.base64}
+              to={imageTarget.base64Formatted}
               download={imageSrc.name}
             >
               Download 📥

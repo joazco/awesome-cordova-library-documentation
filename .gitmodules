@@ -1,3 +1,6 @@
 [submodule "@awesome-cordova-library"]
 	path = @awesome-cordova-library
 	url = https://github.com/joazco/awesome-cordova-library.git
+[submodule "@canvas-compressor-image"]
+	path = @canvas-compressor-image
+	url = https://github.com/joazco/canvas-compressor-image.git

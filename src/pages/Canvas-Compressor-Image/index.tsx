@@ -1,6 +1,6 @@
 import React, { useCallback, useEffect, useMemo, useReducer } from "react";
-import { OutputFormat } from "@awesome-cordova-library/compressor-image";
-import useCompressorImage from "@awesome-cordova-library/compressor-image/lib/react";
+import { OutputFormat } from "canvas-compressor-image";
+import useCompressorImage from "canvas-compressor-image/lib/react";
 import clsx from "clsx";
 import Link from "@docusaurus/Link";
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
@@ -19,7 +19,7 @@ function CrompressorImageHeader() {
         <h1 className="hero__title">Compressor image</h1>
         <p className="hero__subtitle">
           Example how to use{" "}
-          <Link to={"/docs/plugins/compressor-image/"}>
+          <Link to={"/docs/canvas-compressor-image/"}>
             Compressor Image plugin
           </Link>
           .
@@ -100,7 +100,7 @@ export default function CrompressorImage(): JSX.Element {
       description="Description will go into a meta tag in <head />"
     >
       <CrompressorImageHeader />
-      <main>
+      <main className={styles.main}>
         <section className={styles.features}>
           <div className="container">
             <div>
